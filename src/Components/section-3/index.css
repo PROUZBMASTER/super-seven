@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.back{
+    background: url("./img/Rectangle\ 19.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 395px;
+    margin-top: 30px;
+}
+.sectionText{
+    text-align: center;
+    margin-top: 25px;
+    padding-bottom: 10px;
+}
+.text1{
+font-weight: 700;
+font-size: 21px;
+line-height: 35px;
+letter-spacing: -0.02em;
+color: #000000;
+}
+.text2{
+font-weight: 500;
+font-size: 15px;
+line-height: 25px;
+letter-spacing: -0.02em;
+color: #828282;
+}
+@media (max-width:585px) {
+    
+    .text1 {
+       font-weight: 700;
+       font-size: 16px;
+       line-height: 35px;
+       letter-spacing: -0.02em;
+       color: #000000;
+   }
+   .text2 {
+       font-weight: 500;
+       font-size: 8px;
+       line-height: 17px;
+       letter-spacing: -0.02em;
+       color: #828282;
+   }
+   .back {
+       /* background: url(http://localhost:3000/static/media/Rectangle%2019.3aa3399….png); */
+       background-repeat: no-repeat;
+       background-size: cover;
+       height: 103px;
+   }
+   .sectionText{
+       text-align: center;
+       margin-top: 10px;
+   }}
