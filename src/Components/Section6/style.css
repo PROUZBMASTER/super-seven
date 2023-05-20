@@ -1,0 +1,90 @@
+.carddd {
+    width: 100%;
+    height: 790px;
+    background: url(./img/Rectangle\ 12.png);
+    display: flex;
+    align-items: center;
+    margin-top: 47px;
+}
+
+.logo {
+    height: 75px;
+    width: 152px;
+    background: url(img/image\ 23.png);
+    margin-top: 287px;
+    border: none;
+}
+
+.program {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+    padding-top: 24px;
+}
+
+.zara {
+    padding-top: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: right;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.btnvs {
+    height: 50px;
+    width: 292px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.logo1 {
+    height: 57px;
+    width: 71px;
+    background: url(img/Vector\ \(14\).png);
+    margin-top: 305px;
+    border: none;
+}
+
+.d {
+    background: url(img/Rectangle\ 35.png);
+}
+
+.inp {
+    height: 50px;
+    width: 401px;
+    padding-left: 30px;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    color: #000000;
+}
+
+.sub {
+    color: #000000;
+    position: absolute;
+    top: 12px;
+    right: 0;
+    width: 50px;
+    background: none;
+    cursor: pointer;
+    border: none;
+}
+
+form {
+    position: relative;
+}
