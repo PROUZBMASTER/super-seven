@@ -4,15 +4,17 @@ import CaruselPage from "./Components/Carusel/Carusel";
 import Header from "./Components/Header/Header";
 import Section from "./Components/Section-1/Section.jsx";
 import Section4 from "./Components/section-3";
+import Section6 from "./Components/Section6/Section6";
 
 function App() {
   return (
     <>
       <Header />
-      <Section/>
-      <CardPage/>
-      <Section4/>
-      <CaruselPage/>
+      <Section />
+      <CardPage />
+      <Section4 />
+      <CaruselPage />
+      <Section6 />
     </>
   );
 }
