@@ -12,7 +12,7 @@
 }
 
 .right-button:hover {
-    transition: 5s;
+    transition: 1.5s;
     background-color: black;
 }
 
