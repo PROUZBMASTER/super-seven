@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar1 {
+  width: 100%;
+  height: 50px;
+  background-color: #000;
+}
+
+.list-itemQ {
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 12px;
+  letter-spacing: -0.02em;
+  color: #F2F2F2;
+}
+
+.list-itemQ i {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.prQ {
+  margin-left: 15px;
+  margin-right: 12px;
+}
+
+.fa-truck,
+.fa-credit-card,
+.fa-briefcase {
+  margin-right: 15px;
+}
+
+.navbar2 {
+  height: 94px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.nav2-listQ {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  margin-left: 25px;
+  transition: .3s;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: .3s;
+  -moz-transition: .3s;
+  -ms-transition: .3s;
+  -o-transition: .3s;
+}
+
+.nav2-listQ:hover {
+  border-bottom: 2px solid #000000;
+}
+
+.logo-image {
+  cursor: pointer;
+}
+
+.icons {
+  width: 90%;
+}
+
+.icon {
+  text-align: center;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.icon:hover i,
+.icon:hover p {
+  color: #EB5757;
+}
+
+.icon i {
+  font-size: 24px;
+}
+
+.icon p {
+  font-weight: 500;
+  font-size: 8px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.navbar3 {
+  height: 60px;
+  background: #F9F9F9;
+  display: flex;
+  align-items: center;
+  margin-bottom: 26px;
+}
+
+.nav3-menu li {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: -0.02em;
+  color: #000000;
+  cursor: pointer;
+}
+
+.nav3-menu li:hover {
+  color: #EB5757;
+}
+
+.carouselMain {
+  position: relative;
+}
+
+.carousel {
+  position: unset;
+}
+
+.carousel-control-next {
+  right: 0;
+}
+
+.carousel-control-prev {
+  left: 0;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  top: 180px;
+  opacity: 1;
+  background-color: #000;
+  box-shadow: -4px 4px 4px rgba(255, 255, 255, 0.5);
+  width: 32px;
+  height: 98px;
+  color: #000;
+}
+
+.carousel-caption,
+.carousel-caption h3 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #FFFFFF;
+  background: #000000;
+  display: inline;
+  width: 623px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  bottom: 76px;
+}
