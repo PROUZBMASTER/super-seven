@@ -141,16 +141,19 @@ ol {
   position: unset;
 }
 
-.carousel-control-next {
-  right: 0;
-}
+
+
 
 .carousel-control-prev {
-  left: 0;
+  top: 180px;
+  opacity: 1;
+  background-color: #000;
+  box-shadow: -4px 4px 4px rgba(255, 255, 255, 0.5);
+  width: 32px;
+  height: 98px;
+  color: #000;
 }
-
-.carousel-control-next,
-.carousel-control-prev {
+.carousel-control-next{
   top: 180px;
   opacity: 1;
   background-color: #000;

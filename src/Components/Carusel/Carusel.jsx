@@ -1,5 +1,5 @@
 import React from 'react'
-import { Carousel, Col, Container, Row } from 'react-bootstrap'
+import {Col, Container, Row } from 'react-bootstrap'
 import './Carusel.css'
 import c5 from "./img/c5.png"
 import c2 from "./img/c2.png"
@@ -17,10 +17,7 @@ function CaruselPage() {
                             <h1 className='nov'>DC Shoes популярное в коллекции</h1>
                         </Col>
                         <Col lg={12}>
-                            <Carousel>
-                                <Carousel.Item className='d-flex align-items-center justify-content-center'>
                                     <Row>
-                                        
                                         <Col lg={3}>
                                             <div className="car">
                                                 <div className="lll">
@@ -71,13 +68,8 @@ function CaruselPage() {
                                             </div>
                                         </Col>
                                     </Row>
-
-
-                                </Carousel.Item>
-                            </Carousel>
                         </Col>
                     </Row>
-
                 </Container>
             </section>
         </>
